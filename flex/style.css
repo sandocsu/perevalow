@@ -1,0 +1,172 @@
+.first {
+  display: flex;
+  justify-content: center;
+}
+#a {
+  border: rgb(247, 0, 255) solid 10px;
+  border-radius: 10px;
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+}
+#b {
+  border: rgb(111, 0, 255) solid 10px;
+  border-radius: 10px;
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+}
+#c {
+  border: rgb(0, 17, 255) solid 10px;
+  border-radius: 10px;
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+}
+#d {
+  border: rgb(0, 140, 255) solid 10px;
+  border-radius: 10px;
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+}
+#e {
+  border-radius: 10px;
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  border: rgb(0, 247, 255) solid 10px;
+}
+#f {
+  border-radius: 10px;
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  border: rgb(0, 250, 187) solid 10px;
+}
+#g {
+  border-radius: 10px;
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  border: rgb(0, 255, 115) solid 10px;
+}
+#h {
+  border-radius: 10px;
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  border: rgb(43, 255, 0) solid 10px;
+}
+#m {
+  border-radius: 10px;
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  border: rgb(155, 252, 0) solid 10px;
+}
+#j {
+  border-radius: 10px;
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  border: rgb(217, 255, 0) solid 10px;
+}
+#k {
+  border-radius: 10px;
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  border: rgb(255, 208, 0) solid 10px;
+}
+#n {
+  border-radius: 10px;
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  border: rgb(255, 145, 0) solid 10px;
+}
+#o {
+  border-radius: 10px;
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  border: rgb(255, 94, 0) solid 10px;
+}
+#p {
+  border-radius: 10px;
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  border: rgb(255, 0, 0) solid 10px;
+}
