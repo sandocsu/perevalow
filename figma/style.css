@@ -5,21 +5,55 @@ body {
 }
 #all-content {
   position: relative;
+  z-index: 4;
 }
 .fon {
   width: 100%;
   height: auto;
 }
-
+.shadow1 {
+  position: absolute;
+  width: 100%;
+  height: 1200px;
+  left: 0px;
+  top: 0px;
+  z-index: 3;
+  background: linear-gradient(
+    330.24deg,
+    rgba(11, 29, 38, 0) 31.06%,
+    #0b1d26 108.93%
+  );
+}
+.shadow {
+  width: 100%;
+  height: 700px;
+  left: 0px;
+  top: 1376px;
+  position: absolute;
+  z-index: 3;
+  background: linear-gradient(180deg, rgba(11, 29, 38, 0) 0%, #0b1d26 61.38%);
+}
 .fon-k0 {
   position: absolute;
   width: 100%;
   height: 1114px;
   left: 0px;
   top: 0px;
-
+  animation-name: cloud;
+  animation-duration: 2s;
   background: url(HG.png);
   background-size: cover;
+}
+@keyframes cloud {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
 }
 .fon-k1 {
   position: absolute;
@@ -27,8 +61,21 @@ body {
   height: 1422px;
   left: 0px;
   top: 448px;
+  animation-name: mountains;
+  animation-duration: 3s;
   background: url(MG.png);
   background-size: cover;
+}
+@keyframes mountains {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
 }
 .fon-k3 {
   position: absolute;
@@ -36,9 +83,21 @@ body {
   height: 926px;
   left: 0px;
   top: 1150px;
-
+  animation-name: human;
+  animation-duration: 4s;
   background: url(VG.png);
   background-size: cover;
+}
+@keyframes human {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
 }
 .cap {
   display: flex;
@@ -90,13 +149,18 @@ nav ul li a {
   padding: 100px 80px;
 }
 .folowing {
+  transform: rotate(90deg);
+  display: flex;
+  align-items: center;
+}
+.folowing p {
   font-family: "Roboto", sans-serif;
   font-style: normal;
   margin: 0;
   font-size: 18px;
   line-height: 22px;
   font-weight: bold;
-  transform: rotate(90deg);
+  margin: 0 5px;
 }
 .cap4 {
   display: flex;
@@ -126,7 +190,6 @@ h1 {
   font-weight: 600;
   font-size: 88px;
   line-height: 100px;
-
   text-transform: capitalize;
   width: 950px;
   height: 200px;
@@ -162,6 +225,7 @@ h1 {
   background: url(-01.png);
   position: absolute;
   margin-top: -65px;
+  z-index: 4;
   background-repeat: no-repeat;
 }
 .number-2 {
@@ -229,14 +293,12 @@ h2 {
   background-size: contain;
   background-repeat: no-repeat;
 }
-
 footer {
   margin: 0 230px 120px;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
 }
-
 .get-out {
   font-weight: bold;
   font-size: 18px;
@@ -270,4 +332,16 @@ li {
   font-weight: 500;
   font-size: 18px;
   line-height: 32px;
+}
+.inst {
+  width: 20px;
+  height: 20px;
+  background: url(vector.png);
+  margin: 0 5px;
+}
+.twitt {
+  width: 20px;
+  height: 18px;
+  background: url(twitter.png);
+  margin: 0 5px;
 }
